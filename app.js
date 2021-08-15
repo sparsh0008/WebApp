@@ -4,7 +4,7 @@ var outputDiv    = document.querySelector("#output");
 
 
 function clickEventHandler() {
-    outputDiv.innerText = "jhasdvlashdvljkafdvh : " + txtInput.value;
+    outputDiv.innerText = "Output : " + txtInput.value;
 };
 
 btnTranslate.addEventListener("click", clickEventHandler);
