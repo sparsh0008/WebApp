@@ -9,19 +9,21 @@
 
     <style>
         textarea {
-            width: 95%;
+            width: 45%;
             height: 10vh;
             display: block;
             margin: 1rem;
             padding: 1rem;
+            float: left;
         }
 
         #output {
             border: 1px solid black;
             height: 10vh;
-            width: 95%;
+            width: 45%;
             margin: 1rem;
             padding: 1rem;
+            float: right;
         }
     </style>
 </head>
@@ -30,10 +32,12 @@
     <h1><center>Language Translator</center></h1>
 
     <textarea id="txt-input" placeholder="Enter your statement!!"></textarea>
-    <center><button id="btn-translate" >Translate</button></center>
+    
 
     <div></div>
     <div id="output"></div>
+    <center><button id="btn-translate">Translate</button></center>
+    
     <script src="app.js" type="text/javascript"></script>
 </body>
 
