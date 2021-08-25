@@ -9,6 +9,7 @@ function getTranslationURL(text) {
 };
 
 function clickEventHandler() {
+    //console.log("hello");
     var inputText = txtInput.value;
 
     fetch(getTranslationURL(inputText))
